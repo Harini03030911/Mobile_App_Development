@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@color/backgroundColor">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Management System"
+        android:textColor="@color/textColor"
+        android:textSize="24sp"
+        android:layout_gravity="center"
+        android:padding="16dp"/>
+
+    <EditText
+        android:id="@+id/editTextName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Name"
+        android:textColor="@color/textColor"
+        android:background="@color/primaryColor"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextRollNo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Roll No"
+        android:textColor="@color/textColor"
+        android:background="@color/primaryColor"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextDepartment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Department"
+        android:textColor="@color/textColor"
+        android:background="@color/primaryColor"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Address"
+        android:textColor="@color/textColor"
+        android:background="@color/primaryColor"
+        android:padding="8dp"/>
+
+    <EditText
+        android:id="@+id/editTextGPA"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter GPA"
+        android:textColor="@color/textColor"
+        android:background="@color/primaryColor"
+        android:padding="8dp"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/buttonInsert"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Insert"
+        android:textColor="@color/buttonTextColor"
+        android:background="@color/primaryColor"
+        android:shape="rectangle"
+        android:layout_marginTop="16dp"/>
+
+    <Button
+        android:id="@+id/buttonUpdate"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Update"
+        android:textColor="@color/buttonTextColor"
+        android:background="@color/primaryColor"
+        android:shape="rectangle"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonDelete"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Delete"
+        android:textColor="@color/buttonTextColor"
+        android:background="@color/primaryColor"
+        android:shape="rectangle"
+        android:layout_marginTop="8dp"/>
+
+    <Button
+        android:id="@+id/buttonViewAll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="View"
+        android:textColor="@color/buttonTextColor"
+        android:background="@color/primaryColor"
+        android:shape="rectangle"
+        android:layout_marginTop="8dp"/>
+
+    <!-- TableLayout for displaying student records -->
+    <TableLayout
+        android:id="@+id/tableLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:stretchColumns="1"
+        android:padding="8dp"
+
+        android:background="@color/primaryColor"
+        android:divider="@android:color/black"
+        android:dividerPadding="2dp">
+    </TableLayout>
+
+
+</LinearLayout>

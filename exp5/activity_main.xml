@@ -1,0 +1,56 @@
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFDFB9"
+    android:padding="16dp">
+
+    <TextView
+        android:id="@+id/appTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validation App"
+        android:textColor="#A4193D"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="24dp"/>
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter Username"
+        android:textColor="#A4193D"
+        android:layout_below="@id/appTitle"
+        android:layout_marginBottom="16dp"
+        android:inputType="textPersonName"
+        android:textColorHint="#A4193D"
+        android:backgroundTint="#A4193D"/>
+
+    <EditText
+        android:id="@+id/idEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter ID"
+        android:textColor="#A4193D"
+        android:layout_below="@id/usernameEditText"
+        android:layout_marginBottom="16dp"
+        android:inputType="number"
+        android:maxLength="4"
+        android:textColorHint="#A4193D"
+        android:backgroundTint="#A4193D"/>
+
+    <Button
+        android:id="@+id/validateButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Validate"
+        android:textColor="?attr/colorOnPrimary"
+        android:backgroundTint="?attr/colorPrimary"
+        android:layout_below="@id/idEditText"
+        android:layout_centerHorizontal="true"/>
+
+
+</RelativeLayout>
+

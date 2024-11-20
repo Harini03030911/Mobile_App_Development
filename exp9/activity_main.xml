@@ -1,0 +1,63 @@
+<!-- res/layout/activity_main.xml --> 
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+
+ android:layout_width="match_parent" 
+
+ android:layout_height="match_parent" 
+
+ android:background="@drawable/gradient_background" 
+
+ android:gravity="center" 
+
+ android:orientation="vertical" 
+
+ android:padding="20dp"> 
+
+ <Button 
+
+ android:id="@+id/scanButton" 
+
+ android:layout_width="wrap_content" 
+
+ android:layout_height="wrap_content" 
+
+ android:background="@drawable/rounded_button" 
+
+ android:text="Scan QR/Barcode" 
+
+ android:textColor="#FFFFFF" 
+
+ android:textSize="18sp" /> 
+
+ <TextView 
+
+ android:id="@+id/resultTextView" 
+
+ android:layout_width="wrap_content"android:layout_height="wrap_content" 
+
+ android:layout_marginTop="20dp" 
+
+ android:text="Scan result will appear here" 
+
+ android:textColor="#FFFFFF" 
+
+ android:textSize="16sp" /> 
+
+ <TextView 
+
+ android:id="@+id/author" 
+
+ android:layout_width="wrap_content" 
+
+ android:layout_height="wrap_content" 
+
+ android:layout_marginTop="20dp" 
+
+ android:text="by Abdul Jameel" 
+
+ android:textColor="#00BCD4" 
+
+ android:textSize="32sp" /> 
+
+</LinearLayout>
